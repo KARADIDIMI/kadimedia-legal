@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "phases": [
+    {
+      "title": { "de": "Beta-Phase", "en": "Beta phase" },
+      "asOf": "11.08.2026",
+      "entries": [
+        {
+          "title": { "de": "Korrektur Absturz ältere Geräte", "en": "Crash fix for older devices" },
+          "status": "done",
+          "timing": { "de": "0.6 Build 3", "en": "0.6 build 3" }
+        },
+        {
+          "title": { "de": "Erstellung erste Uhren-Designs", "en": "First Watch designs created" },
+          "status": "done",
+          "timing": { "de": "0.6 Build 3", "en": "0.6 build 3" }
+        },
+        {
+          "title": { "de": "Widgets fürs Uhren Ziffernblatt", "en": "Widgets for the watch face" },
+          "status": "done",
+          "timing": { "de": "0.6 Build 4", "en": "0.6 build 4" }
+        },
+        {
+          "title": { "de": "QoL: Schriftgrößen, größere Buttons, größere Scrollrad-Werte (Watch)", "en": "QoL: type sizes, larger buttons, larger wheel values (Watch)" },
+          "status": "done",
+          "timing": { "de": "0.6 Build 4", "en": "0.6 build 4" }
+        },
+        {
+          "title": { "de": "Weitere Uhren-Designs", "en": "More Watch designs" },
+          "status": "inProgress",
+          "timing": { "de": "0.6 Build 4", "en": "0.6 build 4" }
+        },
+        {
+          "title": { "de": "Weitere Behälter-Designs oder Überarbeitung", "en": "More container designs or a rework" },
+          "status": "inProgress",
+          "timing": { "de": "0.6 Build 4", "en": "0.6 build 4" }
+        },
+        {
+          "title": { "de": "iCloud-Abgleich", "en": "iCloud sync" },
+          "status": "inProgress",
+          "timing": { "de": "0.7 Build 5", "en": "0.7 build 5" }
+        },
+        {
+          "title": { "de": "Kauf-Funktion testen", "en": "Test the purchase flow" },
+          "status": "planned",
+          "timing": { "de": "0.7 Build 5", "en": "0.7 build 5" }
+        }
+      ],
+      "milestones": [
+        {
+          "label": { "de": "Version 0.6 Build 2", "en": "Version 0.6 build 2" },
+          "detail": { "de": "Erste Testrunde", "en": "First test round" },
+          "status": "done",
+          "date": { "de": "10.08.2026", "en": "10.08.2026" }
+        },
+        {
+          "label": { "de": "Version 0.6 Build 3", "en": "Version 0.6 build 3" },
+          "detail": { "de": "Korrektur Absturz ältere Geräte, erste Uhren-Designs", "en": "Crash fix for older devices, first Watch designs" },
+          "status": "done",
+          "date": { "de": "11.08.2026", "en": "11.08.2026" }
+        },
+        {
+          "label": { "de": "Version 0.6 Build 4", "en": "Version 0.6 build 4" },
+          "detail": { "de": "Widgets fürs Uhren Ziffernblatt, weitere Uhren- und Behälter-Designs, QoL-Verbesserungen", "en": "Widgets for the watch face, more Watch and container designs, QoL improvements" },
+          "status": "inProgress",
+          "date": { "de": "August 2026", "en": "August 2026" }
+        },
+        {
+          "label": { "de": "Version 0.7 Build 5", "en": "Version 0.7 build 5" },
+          "detail": { "de": "iCloud-Abgleich, Kauf-Funktion testen", "en": "iCloud sync, testing the purchase flow" },
+          "status": "planned",
+          "date": { "de": "August/September 2026", "en": "August/September 2026" }
+        },
+        {
+          "label": { "de": "Finale Beta Version 0.9 Build XX", "en": "Final beta, version 0.9 build XX" },
+          "detail": { "de": "Finaler Test vor Veröffentlichung", "en": "Final test before release" },
+          "status": "planned",
+          "date": { "de": "Q3/Q4 2026", "en": "Q3/Q4 2026" }
+        }
+      ]
+    },
+    {
+      "title": { "de": "Nach Release", "en": "After release" },
+      "asOf": null,
+      "entries": [
+        {
+          "title": { "de": "Trinkhistorie importieren", "en": "Import drink history" },
+          "status": "planned",
+          "timing": { "de": "nach 1.0", "en": "after 1.0" }
+        },
+        {
+          "title": { "de": "Weitere Früchte-Designs", "en": "More fruit designs" },
+          "status": "planned",
+          "timing": { "de": "nach 1.0", "en": "after 1.0" }
+        },
+        {
+          "title": { "de": "Auswertung erweitern", "en": "Expand the analytics" },
+          "status": "planned",
+          "timing": { "de": "offen", "en": "open" }
+        }
+      ],
+      "milestones": [
+        {
+          "label": { "de": "1.0", "en": "1.0" },
+          "detail": { "de": "Veröffentlichung im App Store", "en": "Release on the App Store" },
+          "status": "planned",
+          "date": { "de": "offen", "en": "open" }
+        },
+        {
+          "label": { "de": "1.1", "en": "1.1" },
+          "detail": { "de": "Import und weitere Designs", "en": "Import and more designs" },
+          "status": "planned",
+          "date": { "de": "offen", "en": "open" }
+        }
+      ]
+    }
+  ]
+}
