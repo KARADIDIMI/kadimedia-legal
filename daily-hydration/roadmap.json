@@ -1,116 +1,376 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "phases": [
     {
-      "title": { "de": "Beta-Phase", "en": "Beta phase" },
-      "asOf": "11.08.2026",
+      "title": {
+        "de": "Beta-Phase",
+        "en": "Beta phase"
+      },
+      "asOf": "14.08.2026",
       "entries": [
         {
-          "title": { "de": "Korrektur Absturz ältere Geräte", "en": "Crash fix for older devices" },
+          "title": {
+            "de": "Erstellung erste Uhren-Designs",
+            "en": "First Watch designs created"
+          },
+          "category": "new",
           "status": "done",
-          "timing": { "de": "0.6 Build 3", "en": "0.6 build 3" }
+          "timing": {
+            "de": "0.6 Build 3",
+            "en": "0.6 build 3"
+          }
         },
         {
-          "title": { "de": "Erstellung erste Uhren-Designs", "en": "First Watch designs created" },
+          "title": {
+            "de": "Korrektur Absturz ältere Geräte",
+            "en": "Crash fix for older devices"
+          },
+          "category": "fixed",
           "status": "done",
-          "timing": { "de": "0.6 Build 3", "en": "0.6 build 3" }
+          "timing": {
+            "de": "0.6 Build 3",
+            "en": "0.6 build 3"
+          }
         },
         {
-          "title": { "de": "Widgets fürs Uhren Ziffernblatt", "en": "Widgets for the watch face" },
+          "title": {
+            "de": "Widgets für die Watch",
+            "en": "Widgets for the watch face"
+          },
+          "category": "new",
           "status": "done",
-          "timing": { "de": "0.6 Build 4", "en": "0.6 build 4" }
+          "timing": {
+            "de": "0.6 Build 4",
+            "en": "0.6 build 4"
+          }
         },
         {
-          "title": { "de": "QoL: Schriftgrößen, größere Buttons, größere Scrollrad-Werte (Watch)", "en": "QoL: type sizes, larger buttons, larger wheel values (Watch)" },
+          "title": {
+            "de": "Weitere Watch-Designs",
+            "en": "More Watch designs"
+          },
+          "category": "new",
           "status": "done",
-          "timing": { "de": "0.6 Build 4", "en": "0.6 build 4" }
+          "timing": {
+            "de": "0.6 Build 4",
+            "en": "0.6 build 4"
+          }
         },
         {
-          "title": { "de": "Weitere Uhren-Designs", "en": "More Watch designs" },
-          "status": "inProgress",
-          "timing": { "de": "0.6 Build 4", "en": "0.6 build 4" }
+          "title": {
+            "de": "Pixel-Emoji-Behälter auch für iPhone",
+            "en": "Pixel-Emoji containers now on iPhone too"
+          },
+          "category": "new",
+          "status": "done",
+          "timing": {
+            "de": "0.6 Build 4",
+            "en": "0.6 build 4"
+          }
         },
         {
-          "title": { "de": "Weitere Behälter-Designs oder Überarbeitung", "en": "More container designs or a rework" },
-          "status": "inProgress",
-          "timing": { "de": "0.6 Build 4", "en": "0.6 build 4" }
+          "title": {
+            "de": "Überarbeitung bestehende Behälter-Designs",
+            "en": "Rework of existing container designs"
+          },
+          "category": "changed",
+          "status": "done",
+          "timing": {
+            "de": "0.6 Build 4",
+            "en": "0.6 build 4"
+          }
         },
         {
-          "title": { "de": "iCloud-Abgleich", "en": "iCloud sync" },
-          "status": "inProgress",
-          "timing": { "de": "0.7 Build 5", "en": "0.7 build 5" }
+          "title": {
+            "de": "Pixel- und Früchte-Designs der Watch als Premium-Funktion",
+            "en": "Pixel and fruit Watch designs are now a Premium feature"
+          },
+          "category": "changed",
+          "status": "done",
+          "timing": {
+            "de": "0.6 Build 4",
+            "en": "0.6 build 4"
+          }
         },
         {
-          "title": { "de": "Kauf-Funktion testen", "en": "Test the purchase flow" },
+          "title": {
+            "de": "Automatische Ermittlung Tagesziel: Geschlecht hinzugefügt, Standort-Temperatur um Ist- und Höchstwert erweitert",
+            "en": "Automatic daily goal: sex added, location temperature now shows current and high"
+          },
+          "category": "changed",
+          "status": "done",
+          "timing": {
+            "de": "0.6 Build 4",
+            "en": "0.6 build 4"
+          }
+        },
+        {
+          "title": {
+            "de": "iOS: Schriftgrößen, größere Buttons.\n\nwatchOS: Scrollrad-Werte, größere Icons.",
+            "en": "iOS: type sizes, larger buttons.\n\nwatchOS: wheel values, larger icons."
+          },
+          "category": "qol",
+          "status": "done",
+          "timing": {
+            "de": "0.6 Build 4",
+            "en": "0.6 build 4"
+          }
+        },
+        {
+          "title": {
+            "de": "Weitere Watch-Designs",
+            "en": "More Watch designs"
+          },
+          "category": "new",
           "status": "planned",
-          "timing": { "de": "0.7 Build 5", "en": "0.7 build 5" }
+          "timing": {
+            "de": "0.7 Build 5",
+            "en": "0.7 build 5"
+          }
+        },
+        {
+          "title": {
+            "de": "Weitere Behälter-Designs",
+            "en": "More container designs"
+          },
+          "category": "new",
+          "status": "planned",
+          "timing": {
+            "de": "0.7 Build 5",
+            "en": "0.7 build 5"
+          }
+        },
+        {
+          "title": {
+            "de": "Erweiterung der Getränkeliste: Eintragung eigener Getränke",
+            "en": "Drink list expansion: adding your own custom drinks"
+          },
+          "category": "new",
+          "status": "planned",
+          "timing": {
+            "de": "0.7 Build 5",
+            "en": "0.7 build 5"
+          }
+        },
+        {
+          "title": {
+            "de": "Kauf-Funktion testen",
+            "en": "Test the purchase flow"
+          },
+          "category": "new",
+          "status": "planned",
+          "timing": {
+            "de": "0.7 Build 5",
+            "en": "0.7 build 5"
+          }
+        },
+        {
+          "title": {
+            "de": "iCloud-Abgleich",
+            "en": "iCloud sync"
+          },
+          "category": "fixed",
+          "status": "inProgress",
+          "timing": {
+            "de": "0.7 Build 5",
+            "en": "0.7 build 5"
+          }
+        },
+        {
+          "title": {
+            "de": "Trinkhistorie importieren",
+            "en": "Import drink history"
+          },
+          "category": "new",
+          "status": "planned",
+          "timing": {
+            "de": "0.7 Build 6",
+            "en": "0.7 build 6"
+          }
         }
       ],
       "milestones": [
         {
-          "label": { "de": "Version 0.6 Build 2", "en": "Version 0.6 build 2" },
-          "detail": { "de": "Erste Testrunde", "en": "First test round" },
+          "label": {
+            "de": "Version 0.6 Build 2",
+            "en": "Version 0.6 build 2"
+          },
+          "detail": {
+            "de": "Erste Testrunde",
+            "en": "First test round"
+          },
           "status": "done",
-          "date": { "de": "10.08.2026", "en": "10.08.2026" }
+          "date": {
+            "de": "10.08.2026",
+            "en": "10.08.2026"
+          }
         },
         {
-          "label": { "de": "Version 0.6 Build 3", "en": "Version 0.6 build 3" },
-          "detail": { "de": "Korrektur Absturz ältere Geräte, erste Uhren-Designs", "en": "Crash fix for older devices, first Watch designs" },
+          "label": {
+            "de": "Version 0.6 Build 3",
+            "en": "Version 0.6 build 3"
+          },
+          "detail": {
+            "de": "Korrektur Absturz ältere Geräte, erste Uhren-Designs",
+            "en": "Crash fix for older devices, first Watch designs"
+          },
           "status": "done",
-          "date": { "de": "11.08.2026", "en": "11.08.2026" }
+          "date": {
+            "de": "11.08.2026",
+            "en": "11.08.2026"
+          }
         },
         {
-          "label": { "de": "Version 0.6 Build 4", "en": "Version 0.6 build 4" },
-          "detail": { "de": "Widgets fürs Uhren Ziffernblatt, weitere Uhren- und Behälter-Designs, QoL-Verbesserungen", "en": "Widgets for the watch face, more Watch and container designs, QoL improvements" },
+          "label": {
+            "de": "Version 0.6 Build 4",
+            "en": "Version 0.6 build 4"
+          },
+          "detail": {
+            "de": "Widgets für die Watch, weitere Watch-Designs, Pixel-Emoji-Behälter fürs iPhone, überarbeitete Behälter-Designs, automatisches Tagesziel erweitert, QoL-Verbesserungen",
+            "en": "Widgets for the watch face, more Watch designs, Pixel-Emoji containers for iPhone, reworked container designs, expanded automatic daily goal, QoL improvements"
+          },
           "status": "inProgress",
-          "date": { "de": "August 2026", "en": "August 2026" }
+          "date": {
+            "de": "August 2026",
+            "en": "August 2026"
+          }
         },
         {
-          "label": { "de": "Version 0.7 Build 5", "en": "Version 0.7 build 5" },
-          "detail": { "de": "iCloud-Abgleich, Kauf-Funktion testen", "en": "iCloud sync, testing the purchase flow" },
+          "label": {
+            "de": "Version 0.7 Build 5",
+            "en": "Version 0.7 build 5"
+          },
+          "detail": {
+            "de": "Weitere Watch- und Behälter-Designs, eigene Getränke, iCloud-Abgleich, Kauf-Funktion testen",
+            "en": "More Watch and container designs, custom drinks, iCloud sync, testing the purchase flow"
+          },
           "status": "planned",
-          "date": { "de": "August/September 2026", "en": "August/September 2026" }
+          "date": {
+            "de": "August/September 2026",
+            "en": "August/September 2026"
+          }
         },
         {
-          "label": { "de": "Finale Beta Version 0.9 Build XX", "en": "Final beta, version 0.9 build XX" },
-          "detail": { "de": "Finaler Test vor Veröffentlichung", "en": "Final test before release" },
+          "label": {
+            "de": "Version 0.7 Build 6",
+            "en": "Version 0.7 build 6"
+          },
+          "detail": {
+            "de": "Trinkhistorie importieren",
+            "en": "Import drink history"
+          },
           "status": "planned",
-          "date": { "de": "Q3/Q4 2026", "en": "Q3/Q4 2026" }
+          "date": {
+            "de": "offen",
+            "en": "open"
+          }
+        },
+        {
+          "label": {
+            "de": "Finale Beta Version 0.9 Build XX",
+            "en": "Final beta, version 0.9 build XX"
+          },
+          "detail": {
+            "de": "Finaler Test vor Veröffentlichung",
+            "en": "Final test before release"
+          },
+          "status": "planned",
+          "date": {
+            "de": "Q3/Q4 2026",
+            "en": "Q3/Q4 2026"
+          }
         }
       ]
     },
     {
-      "title": { "de": "Nach Release", "en": "After release" },
+      "title": {
+        "de": "Nach Release",
+        "en": "After release"
+      },
       "asOf": null,
       "entries": [
         {
-          "title": { "de": "Trinkhistorie importieren", "en": "Import drink history" },
+          "title": {
+            "de": "Weitere Behälter-Designs",
+            "en": "More container designs"
+          },
           "status": "planned",
-          "timing": { "de": "nach 1.0", "en": "after 1.0" }
+          "timing": {
+            "de": "1.0.1",
+            "en": "1.0.1"
+          },
+          "category": "new"
         },
         {
-          "title": { "de": "Weitere Früchte-Designs", "en": "More fruit designs" },
+          "title": {
+            "de": "Weitere Watch-Designs",
+            "en": "More Watch designs"
+          },
           "status": "planned",
-          "timing": { "de": "nach 1.0", "en": "after 1.0" }
+          "timing": {
+            "de": "1.0.1",
+            "en": "1.0.1"
+          },
+          "category": "new"
         },
         {
-          "title": { "de": "Auswertung erweitern", "en": "Expand the analytics" },
+          "title": {
+            "de": "Ergänzung Nährwerte bei den Getränken, Scan per Barcode und Erweiterung der Auswertung",
+            "en": "Adding nutrition values to drinks, barcode scanning, and expanding the analytics"
+          },
           "status": "planned",
-          "timing": { "de": "offen", "en": "open" }
+          "timing": {
+            "de": "1.1",
+            "en": "1.1"
+          },
+          "category": "changed"
         }
       ],
       "milestones": [
         {
-          "label": { "de": "1.0", "en": "1.0" },
-          "detail": { "de": "Veröffentlichung im App Store", "en": "Release on the App Store" },
+          "label": {
+            "de": "1.0",
+            "en": "1.0"
+          },
+          "detail": {
+            "de": "Veröffentlichung im App Store",
+            "en": "Release on the App Store"
+          },
           "status": "planned",
-          "date": { "de": "offen", "en": "open" }
+          "date": {
+            "de": "offen",
+            "en": "open"
+          }
         },
         {
-          "label": { "de": "1.1", "en": "1.1" },
-          "detail": { "de": "Import und weitere Designs", "en": "Import and more designs" },
+          "label": {
+            "de": "1.0.1",
+            "en": "1.0.1"
+          },
+          "detail": {
+            "de": "Weitere Watch- und Behälter-Designs",
+            "en": "More Watch and container designs"
+          },
           "status": "planned",
-          "date": { "de": "offen", "en": "open" }
+          "date": {
+            "de": "offen",
+            "en": "open"
+          }
+        },
+        {
+          "label": {
+            "de": "1.1",
+            "en": "1.1"
+          },
+          "detail": {
+            "de": "Nährwerte bei Getränken, Barcode-Scan, erweiterte Auswertung",
+            "en": "Nutrition values for drinks, barcode scanning, expanded analytics"
+          },
+          "status": "planned",
+          "date": {
+            "de": "offen",
+            "en": "open"
+          }
         }
       ]
     }
