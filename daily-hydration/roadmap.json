@@ -118,14 +118,26 @@
         },
         {
           "title": {
+            "de": "iOS 27 Stabilitätsupdate",
+            "en": "iOS 27 stability update"
+          },
+          "category": "fixed",
+          "status": "done",
+          "timing": {
+            "de": "0.6 Build 5",
+            "en": "0.6 build 5"
+          }
+        },
+        {
+          "title": {
             "de": "Weitere Watch-Designs",
             "en": "More Watch designs"
           },
           "category": "new",
           "status": "planned",
           "timing": {
-            "de": "0.7 Build 5",
-            "en": "0.7 build 5"
+            "de": "0.7 Build 6",
+            "en": "0.7 build 6"
           }
         },
         {
@@ -136,8 +148,8 @@
           "category": "new",
           "status": "planned",
           "timing": {
-            "de": "0.7 Build 5",
-            "en": "0.7 build 5"
+            "de": "0.7 Build 6",
+            "en": "0.7 build 6"
           }
         },
         {
@@ -146,10 +158,10 @@
             "en": "Drink list expansion: adding your own custom drinks"
           },
           "category": "new",
-          "status": "planned",
+          "status": "done",
           "timing": {
-            "de": "0.7 Build 5",
-            "en": "0.7 build 5"
+            "de": "0.7 Build 6",
+            "en": "0.7 build 6"
           }
         },
         {
@@ -160,8 +172,8 @@
           "category": "new",
           "status": "planned",
           "timing": {
-            "de": "0.7 Build 5",
-            "en": "0.7 build 5"
+            "de": "0.7 Build 6",
+            "en": "0.7 build 6"
           }
         },
         {
@@ -172,8 +184,8 @@
           "category": "fixed",
           "status": "inProgress",
           "timing": {
-            "de": "0.7 Build 5",
-            "en": "0.7 build 5"
+            "de": "0.7 Build 6",
+            "en": "0.7 build 6"
           }
         },
         {
@@ -184,8 +196,8 @@
           "category": "new",
           "status": "planned",
           "timing": {
-            "de": "0.7 Build 6",
-            "en": "0.7 build 6"
+            "de": "0.7 Build 7",
+            "en": "0.7 build 7"
           }
         }
       ],
@@ -237,8 +249,23 @@
         },
         {
           "label": {
-            "de": "Version 0.7 Build 5",
-            "en": "Version 0.7 build 5"
+            "de": "Version 0.6 Build 5",
+            "en": "Version 0.6 build 5"
+          },
+          "detail": {
+            "de": "iOS 27 Stabilitätsupdate",
+            "en": "iOS 27 stability update"
+          },
+          "status": "inProgress",
+          "date": {
+            "de": "August 2026",
+            "en": "August 2026"
+          }
+        },
+        {
+          "label": {
+            "de": "Version 0.7 Build 6",
+            "en": "Version 0.7 build 6"
           },
           "detail": {
             "de": "Weitere Watch- und Behälter-Designs, eigene Getränke, iCloud-Abgleich, Kauf-Funktion testen",
@@ -252,8 +279,8 @@
         },
         {
           "label": {
-            "de": "Version 0.7 Build 6",
-            "en": "Version 0.7 build 6"
+            "de": "Version 0.7 Build 7",
+            "en": "Version 0.7 build 7"
           },
           "detail": {
             "de": "Trinkhistorie importieren",
